@@ -33,6 +33,7 @@
 
 <p align="center">
   <a href="#goals">Goals</a> •
+  <a href="#goals">Screenshots</a> •
   <a href="#wiki">Wiki</a> •
   <a href="CONTRIBUTING.md">Contributing</a> •
   <a href="#contact">Contact</a>
@@ -48,6 +49,12 @@ TRON is a product of Web 4.0 and the decentralized internet of next generation.
 # Goals
 
 * Web GUI for Tronix
+
+# Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/screen-1.png">
+</p>
 
 ## Wiki
 
