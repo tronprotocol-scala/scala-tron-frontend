@@ -53,7 +53,7 @@ TRON is a product of Web 4.0 and the decentralized internet of next generation.
 # Screenshots
 
 <p align="center">
-  <img src="docs/screenshots/screen-1.png">
+  <img src="docs/screenshots/screen-1.jpg">
 </p>
 
 ## Wiki
