@@ -6,7 +6,7 @@
 </h1>
 
 <h4 align="center">
-  Frontend for <a href="http://wiki.tron.network">Tron Protocol</a>
+  Frontend for <a href="http://wiki.tron.network">Tron Network</a>
 </h4>
 
 <p align="center">
