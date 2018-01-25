@@ -7,8 +7,10 @@ import akka.actor.{ActorRef, ActorSystem}
 import akka.stream.scaladsl.{Flow, Sink, Source}
 import akka.stream.{Materializer, OverflowStrategy}
 import akka.util.Timeout
+import org.tron.cluster.ClusterListener
 import org.tron.cluster.ClusterListener.RegisterListener
 import org.tron.socket.SocketCodecs._
+import org.tron.socket.SocketProtocol.{JoinNetwork, RequestClusterState}
 import play.api.libs.json.JsString
 import play.engineio.EngineIOController
 import play.socketio.scaladsl.SocketIO
@@ -30,6 +32,11 @@ class SocketIOEngine @Inject() (
     var ref: ActorRef = null
 
     val receiver = Sink.foreach[Any] {
+      case JoinNetwork(address) =>
+        val Array(hostname, port) = address.split(":")
+        clusterListener ! ClusterListener.JoinCluster(hostname, port.toInt)
+      case RequestClusterState() =>
+        clusterListener ! ClusterListener.RequestClusterState(ref)
       case x =>
         println("unhandled", x)
     }
