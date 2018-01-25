@@ -11,8 +11,9 @@ scalaVersion := "2.12.3"
 
 libraryDependencies ++= Seq(
   "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test,
+  "com.lightbend.play" %% "play-socket-io" % "1.0.0-beta-2",
   guice,
-) ++ akkaDeps ++ grpcDeps
+) ++ akkaDeps ++ grpcDeps ++ circeDependencies
 
 //PB.targets in Compile := Seq(
 //  scalapb.gen() -> (sourceManaged in Compile).value
