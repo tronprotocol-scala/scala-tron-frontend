@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="docs/img/scala-tron.png">
+  <img src="docs/img/scala-tron-frontend.png">
   <br>
   scala-tron-frontend
   <br>
@@ -10,24 +10,24 @@
 </h4>
 
 <p align="center">
-  <a href="https://travis-ci.org/Rovak/scala-tron">
-    <img src="https://travis-ci.org/Rovak/scala-tron.svg?branch=master">
+  <a href="https://travis-ci.org/Rovak/scala-tron-frontend">
+    <img src="https://travis-ci.org/Rovak/scala-tron-frontend.svg?branch=master">
   </a>
 
-  <a href="https://gitter.im/rovak/scala-tron">
+  <a href="https://gitter.im/rovak/scala-tron-frontend">
     <img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg">
   </a>
 
-  <a href="https://github.com/rovak/scala-tron/issues">
-    <img src="https://img.shields.io/github/issues/rovak/scala-tron.svg">
+  <a href="https://github.com/rovak/scala-tron-frontend/issues">
+    <img src="https://img.shields.io/github/issues/rovak/scala-tron-frontend.svg">
   </a>
 
-  <a href="https://github.com/rovak/scala-tron/pulls">
-    <img src="https://img.shields.io/github/issues-pr/rovak/scala-tron.svg">
+  <a href="https://github.com/rovak/scala-tron-frontend/pulls">
+    <img src="https://img.shields.io/github/issues-pr/rovak/scala-tron-frontend.svg">
   </a>
 
-  <a href="https://github.com/rovak/scala-tron/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/rovak/scala-tron.svg">
+  <a href="https://github.com/rovak/scala-tron-frontend/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/rovak/scala-tron-frontend.svg">
   </a>
 </p>
 
@@ -62,5 +62,5 @@ TRON is a product of Web 4.0 and the decentralized internet of next generation.
 
 ## Contact
 
-* [Gitter](https://gitter.im/Rovak/scala-tron)
+* [Gitter](https://gitter.im/Rovak/scala-tron-frontend)
 * [Telegram](https://t.me/joinchat/CP8XKBIjEc0RqzJdl61OlQ)
