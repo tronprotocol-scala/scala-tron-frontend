@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="docs/img/scala-tron-frontend.png">
+  <img src="docs/img/scala-tron.png">
   <br>
   scala-tron-frontend
   <br>
